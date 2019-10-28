@@ -19,5 +19,7 @@ public class DateDemo {
 			}
 		}, 0L, 1000L);
 		
+		// 取消定时器
+		timer.cancel();
 	}
 }
